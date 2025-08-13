@@ -1,4 +1,215 @@
 html {
   height: 100%;
   width: 100%;
+
+
+body{
+  background-color: black;
 }
+  
+p{
+  color: deeppink;
+  font-size: 30px;
+  text-align: center;
+  font-family: Montaga;
+  position: relative; 
+  top: 50px;
+}
+  h4{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-family: Montaga;
+  }
+
+  .intro-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px;
+  }
+
+  .intro-text{
+    color: deeppink;
+    text-align: left;
+  }
+
+  .intro-text p{
+    margin: 0 0 15px;
+  }
+
+  .icons a img{
+    width: 30px;
+    margin-right: 10px;
+    
+  }
+
+  .intro-image img{
+    border: 5px;
+    border-radius: 5px;
+    max-width: 300px;
+    height: auto;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 0 20px;
+  }
+
+  
+  nav ul.nav-left {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+
+  nav ul.nav-right {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px; 
+  }
+
+ 
+  nav ul li a {
+    display: block;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s ease;
+  }
+
+  nav ul li a:hover {
+    background-color: black;
+  }
+
+.content{
+  display: flex;
+  gap: 20px; 
+  
+}
+
+  .img_deg{
+    float: right;
+  }
+   
+  img{
+   height: 500px;
+   width: 500px;
+   border: 10px solid deeppink;
+   border-radius: 8px;
+   margin-top: 20px;
+   
+   }
+
+
+.icon-container{
+  text-align: center; 
+  position: relative; 
+  top: 10px;
+  font-size: 80px;
+  margin-top: 20px;
+}
+
+  a:hover, a:active, a:visited {
+    color: white;
+  }
+
+  a:link {
+    color: white;
+    }
+    a:visited {
+      color: white;
+      }
+      a:hover {
+        color: white;
+        }
+        a:active {
+          color: white;
+        }
+
+  
+  #colorChangeBtn {
+    background-color: deeppink;   
+    color: white;                 
+    border: none;                 
+    padding: 12px 25px;           
+    font-size: 18px;              
+    border-radius: 8px;           
+    cursor: pointer;              
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2); 
+    margin-top: 150px;
+    display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  #colorChangeBtn:hover {
+    background-color: #ff1a75;    
+  }
+
+  h1{
+    text-align: center;
+    color: deeppink;
+  }
+
+  h3{
+    text-align: center;
+    color: deeppink;
+  }
+
+    .img-thumbnail{
+      height: 100px;
+      width: 100px;
+    }
+
+    .images-row{
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+
+    .text-goals{
+      text-align: center;
+      list-style-position: inside;
+      margin: auto;
+    }
+
+  li{
+    color: white;
+    font-size: 20px;
+    font-family: Montaga;
+  }
+
+  .image-two{
+    height: 500px;
+     width: 500px;
+     border: 10px solid deeppink;
+     border-radius: 8px;
+     margin-top: 20px;
+  }
+
+  h5{
+     float: right;
+      color: white;
+      font-size: 20px;
+      text-align: center;
+      font-family: Montaga;
+      
+  }
+
+  .flex-container {
+    display: flex;
+    align-items: center; /* vertically centers content */
+    gap: 20px;           /* space between image and text */
+  }
